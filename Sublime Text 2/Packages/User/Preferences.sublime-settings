@@ -1,27 +1,27 @@
 {
-	"color_scheme": "Packages/Dayle Rees Color Schemes/legacy/Snappy.tmTheme",
+    "color_scheme": "Packages/Dayle Rees Color Schemes/legacy/Snappy.tmTheme",
 
-	"font_face": "Source Code Pro Medium",
-	"font_size": 14.0,
+    "font_face": "Source Code Pro Medium",
+    "font_size": 14.0,
 
-	"rulers": [80],
+    "rulers": [80],
 
-	"spell_check": true,
+    "spell_check": true,
 
-	"translate_tabs_to_spaces": true,
+    "translate_tabs_to_spaces": true,
 
-	"word_wrap": "true",
+    "word_wrap": "true",
 
     "indent_guide_options": ["draw_active"],
 
-	"trim_trailing_white_space_on_save": true,
-	"ensure_newline_at_eof_on_save": true,
+    "trim_trailing_white_space_on_save": true,
+    "ensure_newline_at_eof_on_save": true,
 
-	"drag_text": false,
+    "drag_text": false,
 
-	"highlight_modified_tabs": true,
+    "highlight_modified_tabs": true,
 
     "show_full_path": true,
 
-	"uglifyjs_command": "/usr/local/bin/uglifyjs"
+    "uglifyjs_command": "/usr/local/bin/uglifyjs"
 }
