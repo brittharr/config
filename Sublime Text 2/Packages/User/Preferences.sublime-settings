@@ -1,26 +1,28 @@
 {
-	"color_scheme": "Packages/Dayle Rees Color Schemes/legacy/Snappy.tmTheme",
-	"drag_text": false,
-	"ensure_newline_at_eof_on_save": true,
-	"font_face": "Source Code Pro Medium",
-	"font_size": 14.0,
-	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"indent_guide_options":
-	[
-		"draw_active"
-	],
-	"rulers":
-	[
-		80
-	],
-	"show_full_path": true,
-	"spell_check": true,
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"uglifyjs_command": "/usr/local/bin/uglifyjs",
-	"word_wrap": "true"
+
+    "color_scheme": "Packages/Dayle Rees Color Schemes/legacy/Snappy.tmTheme",
+
+    "font_face": "Source Code Pro Medium",
+    "font_size": 14.0,
+
+    "rulers": [80],
+
+    "spell_check": true,
+
+    "translate_tabs_to_spaces": true,
+
+    "word_wrap": "true",
+
+    "indent_guide_options": ["draw_active"],
+
+    "trim_trailing_white_space_on_save": true,
+    "ensure_newline_at_eof_on_save": true,
+
+    "drag_text": false,
+
+    "highlight_modified_tabs": true,
+
+    "show_full_path": true,
+
+    "uglifyjs_command": "/usr/local/bin/uglifyjs"
 }
