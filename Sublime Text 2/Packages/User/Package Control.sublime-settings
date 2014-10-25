@@ -22,10 +22,12 @@
 		"Sass",
 		"SASS Build",
 		"SassBuilder",
+		"SCSS",
 		"SFTP",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeLinter",
-		"Tag"
+		"Tag",
+		"VAlign"
 	]
 }
