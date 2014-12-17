@@ -4,7 +4,6 @@
 	[
 		"Alignment",
 		"BracketHighlighter",
-		"CoffeeCompile",
 		"CoffeeScript",
 		"ColorPick",
 		"CSScomb",
@@ -18,6 +17,7 @@
 		"Nettuts+ Fetch",
 		"Package Control",
 		"Prefixr",
+		"Pretty JSON",
 		"RubyTest",
 		"Sass",
 		"SASS Build",

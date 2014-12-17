@@ -1,13 +1,15 @@
 {
-	"color_scheme": "Packages/Dayle Rees Color Schemes/legacy/Snappy.tmTheme",
-	"detect_slow_plugins": false,
+    "theme": "Spacegray.sublime-theme",
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
 	"drag_text": false,
+	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Source Code Pro Medium",
 	"font_size": 14.0,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"VAlign",
 		"Vintage"
 	],
 	"indent_guide_options":
@@ -23,6 +25,10 @@
 	"spell_check": true,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"uglifyjs_command": "/usr/local/bin/uglifyjs",
-	"word_wrap": "true"
+	"word_wrap": "true",
+    "spacegray_tabs_font_normal": true,
+    "spacegray_tabs_normal": true,
+    "spacegray_tabs_auto_width": true,
+    "spacegray_sidebar_font_large": true,
+    "spacegray_sidebar_tree_normal": true
 }
