@@ -1,6 +1,5 @@
 {
-    "theme": "Spacegray.sublime-theme",
-	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"color_scheme": "Packages/Dayle Rees Color Schemes/sublime/snappy.tmTheme",
 	"drag_text": false,
 	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
@@ -23,12 +22,8 @@
 	"scroll_past_end": false,
 	"show_full_path": true,
 	"spell_check": true,
+	"theme": "snappy.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "true",
-    "spacegray_tabs_font_normal": true,
-    "spacegray_tabs_normal": true,
-    "spacegray_tabs_auto_width": true,
-    "spacegray_sidebar_font_large": true,
-    "spacegray_sidebar_tree_normal": true
+	"word_wrap": "true"
 }
