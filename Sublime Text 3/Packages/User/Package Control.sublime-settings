@@ -1,16 +1,23 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"Alignment",
+		"Color Highlighter",
 		"CSScomb",
 		"Dayle Rees Color Schemes",
 		"EditorConfig",
+		"Emmet",
 		"Emmet Css Snippets",
 		"JSLint",
+		"Package Control",
 		"SCSS",
 		"SFTP",
 		"SideBarEnhancements",
 		"Theme - Spacegray",
-		"VAlign"
+		"VAlign",
+		"Volt"
 	]
 }
