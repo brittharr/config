@@ -1,16 +1,19 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
 		"Alignment",
+		"All Autocomplete",
 		"Color Highlighter",
 		"CSScomb",
 		"Dayle Rees Color Schemes",
 		"EditorConfig",
 		"Emmet",
 		"Emmet Css Snippets",
+		"Handlebars",
 		"JSLint",
 		"Package Control",
 		"SCSS",
