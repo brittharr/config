@@ -1,5 +1,7 @@
 {
-	"color_scheme": "Packages/Dayle Rees Color Schemes/sublime/snappy.tmTheme",
+    "always_show_minimap_viewport": true,
+    "bold_folder_labels": true,
+    "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"drag_text": false,
 	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
@@ -13,8 +15,15 @@
 	],
 	"indent_guide_options":
 	[
+		"draw_normal",
 		"draw_active"
 	],
+    "line_padding_top": 2,
+    "line_padding_bottom": 2,
+	"material_theme_compact_sidebar": true,
+	"material_theme_contrast_mode": true,
+    "material_theme_tabs_autowidth": true,
+    "overlay_scroll_bars": "enabled",
 	"rulers":
 	[
 		80
@@ -22,7 +31,7 @@
 	"scroll_past_end": false,
 	"show_full_path": true,
 	"spell_check": true,
-	"theme": "snappy.sublime-theme",
+    "theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": "true"
