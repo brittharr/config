@@ -1,6 +1,6 @@
 ### Hey!
 
-This file should *more than likely* be symlinked to `/Library/"Application Support"/"Sublime Text 3"/Packages/User`
+This directory needs to be symlinked to `/Library/"Application Support"/"Sublime Text 3"/Packages/User` in order to have an effect.
 
 ```sh
 # don't forget to move any other files out of that directory first, with
