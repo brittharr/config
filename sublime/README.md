@@ -4,11 +4,11 @@ This directory needs to be symlinked to `/Library/"Application Support"/"Sublime
 
 ```sh
 # don't forget to move any other files out of that directory first, with
-$ cp -r /Library/"Application Support"/"Sublime Text 3"/Packages/User/* {this-repo-path}/sublime/*
+$ cp -r ~/Library/"Application Support"/"Sublime Text 3"/Packages/User/* sublime
 
 # then delete the old User directory
-$ rm -r /Library/"Application Support"/"Sublime Text 3"/Packages/User/
+$ rm -r ~/Library/"Application Support"/"Sublime Text 3"/Packages/User/
 
 # finally symlink this directory to hook it up!
-$ ln -s {this-repo-path}/sublime /Library/"Application Support"/"Sublime Text 3"/Packages/User
+$ cd sublime & ln -s ~/Library/"Application Support"/"Sublime Text 3"/Packages/User
 ```
