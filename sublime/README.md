@@ -10,5 +10,5 @@ $ cp -r ~/Library/"Application Support"/"Sublime Text 3"/Packages/User/* sublime
 $ rm -r ~/Library/"Application Support"/"Sublime Text 3"/Packages/User/
 
 # finally symlink this directory to hook it up!
-$ cd sublime & ln -s ~/Library/"Application Support"/"Sublime Text 3"/Packages/User
+$ ln -s sublime ~/Library/"Application Support"/"Sublime Text 3"/Packages/User
 ```

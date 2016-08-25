@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"Advanced CSV",
 		"Alignment",
 		"All Autocomplete",
 		"Babel",
@@ -15,13 +16,18 @@
 		"EditorConfig",
 		"Emmet",
 		"Emmet Css Snippets",
+		"GitGutter",
 		"Handlebars",
 		"JSHint",
 		"Material Theme",
 		"Package Control",
+		"Pretty JSON",
 		"SCSS",
 		"SFTP",
 		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-contrib-standard",
+		"SublimeLinter-json",
 		"Volt",
 		"WordCount"
 	]
