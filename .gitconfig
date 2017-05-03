@@ -1,23 +1,34 @@
+[core]
+        pager = diff-highlight | diff-so-fancy | less -r
 [alias]
-	st = status
-	ci = commit
-	br = branch
-	co = checkout
-	unstage = reset HEAD --
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        st = status
+        ci = commit
+        br = branch
+        co = checkout
+        unstage = reset HEAD --
+        lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        amend = commit --amend --no-edit
+        pl = pull --rebase
 [color]
-	ui = auto
+        ui = auto
+[color "status"]
+        added = yellow
+        changed = green
+        untracked = cyan
 [push]
-	default = simple
+        default = simple
+        followTags = true
 [credential]
-	helper = osxkeychain
+        helper = osxkeychain
 [filter "media"]
-	required = true
-	clean = git media clean %f
-	smudge = git media smudge %f
+        required = true
+        clean = git media clean %f
+        smudge = git media smudge %f
 [filter "lfs"]
-	clean = git-lfs clean %f
-	smudge = git-lfs smudge %f
-	required = true
+        clean = git-lfs clean %f
+        smudge = git-lfs smudge %f
+        required = true
 [status]
-	submodulesummary = 1
+        submodulesummary = 1
+[help]
+        autocorrect = 1
