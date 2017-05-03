@@ -25,10 +25,11 @@
 		"SCSS",
 		"SFTP",
 		"SideBarEnhancements",
+		"Stylus",
 		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-standard",
 		"SublimeLinter-json",
-		"Volt",
 		"WordCount"
 	]
 }

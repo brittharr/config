@@ -6,7 +6,7 @@
 	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Source Code Pro Medium",
-	"font_size": 13.0,
+	"font_size": 13,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
@@ -31,6 +31,7 @@
 		80
 	],
 	"scroll_past_end": false,
+	"show_definitions": false,
 	"show_full_path": true,
 	"spell_check": true,
 	"theme": "Material-Theme.sublime-theme",
