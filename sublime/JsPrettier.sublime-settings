@@ -1,0 +1,7 @@
+{
+  "settings": {
+      "js_prettier": {
+          "prettier_cli_path": "/usr/local/bin/prettier-standard"
+      }
+  }
+}
