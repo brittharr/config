@@ -8,12 +8,6 @@ eval "$(rbenv init -)"
 export PATH="/usr/local/bin:$PATH"
 export PATH=$HOME/.rbenv/shims:$PATH
 
-# ImageMagick + rbenv
-export PKG_CONFIG_PATH="/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH"
-
-# Sublime Text 3 (?!)
-alias subl='open -a Sublime\ Text'
-
 # Aliases
 alias weather="curl wttr.in"
 alias ll="ls -la"
@@ -23,14 +17,6 @@ alias edit-profile="vi ~/.bash_profile"
 alias .s="subl ."
 alias .f="open ."
 alias rsrc="source ~/.bash_profile"
-
-# Setting PATH for Python 2.7
-# The original version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
-export PATH
-
-# yarn
-export PATH="$PATH:`yarn global bin`"
 
 # tiny care terminal
 # List of accounts to read the last tweet from, comma separated
@@ -45,9 +31,6 @@ export TTC_REPOS='~/Repositories/github,~/Repositories/graphics-data,~/Repositor
 # first, if you can). It's using weather.service.msn.com behind the curtains.
 export TTC_WEATHER='New York'
 
-# Set to false if you're an imperial savage. <3
-export TTC_CELSIUS=false
-
 # Unset this if you _don't_ want to use Twitter keys and want to
 # use web scraping instead.
 export TTC_APIKEYS=true
@@ -60,3 +43,5 @@ export TTC_CONSUMER_KEY='KEY'
 export TTC_CONSUMER_SECRET='SECRET'
 export TTC_ACCESS_TOKEN='TOKEN'
 export TTC_ACCESS_TOKEN_SECRET='SECRET'
+
+export PS1="\`if [ \$? = 0 ]; then echo 💖; else echo 💙; fi\` \h:\W \u$ "
